@@ -89,7 +89,7 @@ todoForm.addEventListener("submit", function (event) {
 
     };
 
-  // All the following code is for for deleting button
+  // All the following code is for for deleting
 
 const deleteTodoItem = (itemId) => {
   const todoItemIndexValue = todoListItems.findIndex(

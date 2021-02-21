@@ -84,7 +84,7 @@ main {
 .todo_list {
   border: 2px dashed #1a535c;
   display: none;
-  width: 50%;
+  width:80%;
   height: 200px;
   overflow: scroll;
   list-style-type: none;
