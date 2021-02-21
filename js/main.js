@@ -77,9 +77,9 @@ todoForm.addEventListener("submit", function (event) {
         listItemElement.setAttribute("data-key", newTodoItem.id);
 
       // Add the new item inside uisng template string style with backtick to avoir using concatenate string + var
-      listItemElement.innerHTML=` <div class="todo_item"> 
+      listItemElement.innerHTML=` <div class="todo_item">
                                   <span>${newTodoItem.value}</span>
-                                  <button id="delete-toto">Delete </button>
+                                  <button id="delete-todo">Delete </button>
                                   <div>
       `;
       // Add/Append the new item to the html 
